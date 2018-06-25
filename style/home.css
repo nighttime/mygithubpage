@@ -42,7 +42,7 @@ body {
     z-index: -99;
 }
 #header {
-    margin-top: 10vh;
+    margin-top: 10vh; /* was 30vh */
     padding: 0 30px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
