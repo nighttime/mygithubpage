@@ -1,0 +1,99 @@
+/* * {
+    border: red dashed 1px;
+} */
+
+
+@font-face {
+    font-family: Din-Regular;
+    src: url('fonts/FF_DIN_Regular.otf');
+}
+
+@font-face {
+    font-family: Din-Medium;
+    src: url('fonts/FF_DIN_Medium.otf');
+}
+
+body {
+    /* -webkit-font-smoothing: subpixel-antialiased; */
+    /*text-rendering: geometricPrecision;*/
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    /* background-color: #2E2E2E; */
+    font-family: 'Open Sans', sans-serif;
+    color: #343434;
+}
+
+#menu-bar {
+    background-color: #FAFAFA;
+    height: 8vh;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#menu-title {
+    text-align: center;
+    font: 1.5em Din-Medium, sans-serif;
+    position: relative;
+    top: 25%;
+}
+
+#page-title {
+    /* top: 15vh; */
+}
+
+#page-contents {
+    position: absolute;
+    top: 8vh;
+    height: 92vh;
+    width: 100vw;
+}
+
+.section {
+    max-width: 31em;
+    margin: auto;
+    padding: 1.5em 2em;
+}
+
+.title {
+    font: 1.25em Din-Regular, sans-serif;
+    text-align: center;
+    padding: 2em 0 0.5em 0;
+}
+
+.blog-title {
+    font: 1.15em Din-Medium, sans-serif;
+    color: #66BBFF;
+}
+
+.blog-post {
+    padding: 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.footer-link {
+    margin: auto;
+    width: auto;
+    font: 0.9em Din-Regular, sans-serif;
+    text-transform: uppercase;
+    color: #777777;
+}
+
+ul {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #3399CC;
+}
