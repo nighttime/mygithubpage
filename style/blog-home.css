@@ -27,32 +27,54 @@ body {
 
 #menu-bar {
     background-color: #FAFAFA;
-    height: 8vh;
+    /* height: 8vh; */
     width: 100%;
-    position: absolute;
+    /* position: absolute; */
+    position: fixed;
     left: 0;
     top: 0;
+    z-index: 1;
 }
 
 #menu-title {
     text-align: center;
     font: 1.5em Din-Medium, sans-serif;
-    position: relative;
-    top: 25%;
-}
-
-#page-title {
-    /* top: 15vh; */
+    padding: 0.75em 0;
 }
 
 #page-contents {
     position: absolute;
     top: 8vh;
-    height: 92vh;
+    /* height: 92vh; */
     width: 100vw;
 }
 
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+    /* margin-top: 50px; */
+    /* margin: 10px auto; */
+    background-color: white;
+}
+
+.top-border {
+    border-top: #EEEEEE 3px solid;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: flex-start;
+}
+
 .section {
+    max-width: 31em;
+    margin: auto;
+    padding: 0 1.5em;
+}
+
+.small-menu {
     max-width: 31em;
     margin: auto;
     padding: 1em 1.5em;
@@ -61,7 +83,7 @@ body {
 .title {
     font: 1.25em Din-Regular, sans-serif;
     text-align: center;
-    margin: 2em 0 1em 0;
+    margin: 3em 0 1em 0;
 }
 
 .blog-title {
@@ -70,8 +92,6 @@ body {
 }
 
 .blog-subtitle {
-    /* text-transform: uppercase; */
-    /* letter-spacing: 0.05em; */
     font-size: 0.9em;
     color: #888888;
     margin-top: 8px;
@@ -94,13 +114,6 @@ body {
 .paper-description {
     font-size: 0.9em;
     margin-top: 4px;
-}
-
-.footer {
-    margin-top: 50px;
-    display: flex;
-    justify-content: flex-start;
-    border-top: #EEEEEE 3px solid;
 }
 
 .footer-link {
