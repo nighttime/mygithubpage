@@ -55,13 +55,13 @@ body {
 .section {
     max-width: 31em;
     margin: auto;
-    padding: 1.5em 2em;
+    padding: 1em 1.5em;
 }
 
 .title {
     font: 1.25em Din-Regular, sans-serif;
     text-align: center;
-    padding: 2em 0 0.5em 0;
+    margin: 2em 0 1em 0;
 }
 
 .blog-title {
@@ -69,20 +69,44 @@ body {
     color: #66BBFF;
 }
 
-.blog-post {
-    padding: 0;
+.blog-subtitle {
+    /* text-transform: uppercase; */
+    /* letter-spacing: 0.05em; */
+    font-size: 0.9em;
+    color: #888888;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.blog-description {
+
+}
+
+.post-item {
+    margin-bottom: 20px;
+}
+
+.paper-title {
+    font: 1.05em Din-Regular, sans-serif;
+    color: #66AABB;
+}
+
+.paper-description {
+    font-size: 0.9em;
+    margin-top: 4px;
 }
 
 .footer {
+    margin-top: 50px;
     display: flex;
     justify-content: flex-start;
+    border-top: #EEEEEE 3px solid;
 }
 
 .footer-link {
     margin: auto;
     width: auto;
     font: 0.9em Din-Regular, sans-serif;
-    text-transform: uppercase;
     color: #777777;
 }
 
