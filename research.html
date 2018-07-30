@@ -2,6 +2,14 @@
 <html lang="en">
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-77378585-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-77378585-1');
+    </script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Nick's Research Blog</title>
@@ -21,6 +29,11 @@
             <div class="title">Blog Posts</div>
             <ul>
                 <li class="post-item">
+                    <a href="https://docs.google.com/document/d/e/2PACX-1vRMloTzXRoxwyguwnoN1PqE8Kw82EGqC6JS0ngoH7GynJdWxdArhi-yEZJ1iODXA5ajfJRi37EL7822/pub" class="blog-title">Word Vector Semantics with Restricted Vocabulary</a>
+                    <!-- <div class="blog-subtitle">Leveraging hidden distributional organization to improve vocabulary-based tasks</div> -->
+                    <div class="blog-description">We dive deeper into our previous models to explore semantics of the learned word vectors. What role does vocabulary size play?</div>
+                </li>
+                <li class="post-item">
                     <a href="https://docs.google.com/document/d/e/2PACX-1vS5CLRtm17ifWEspMc2GRxVF4VjDpncb021Nq14i5GOmDzTOE6n5ZxfFJ95gVLFDGxFGN0VAUognlaf/pub" class="blog-title">Discovering Order in Natural Language</a>
                     <div class="blog-subtitle">Leveraging hidden distributional organization to improve vocabulary-based tasks</div>
                     <div class="blog-description">In this post we'll explore statistical properties of natural language. We'll develop a sentiment analysis model and use what we learn to drastically reduce the number of learned parameters while maintaining accuracy.</div>
@@ -31,7 +44,7 @@
             <div class="title">What I'm Reading</div>
             <ul>
                 <li class="post-item">
-                    <a href="https://drive.google.com/file/d/0B6m_QKjV_1EkWF9UUkJHWHJPTWs/view" class="paper-title">How Linguistic Metaphor Scaffolds Reasoning</a>
+                    <a href="papers/metaphor-scaffolding.pdf" class="paper-title">How Linguistic Metaphor Scaffolds Reasoning</a>
                     <div class="paper-description">Metaphors guide us to think differently about target concepts by borrowing structure from a source concept.</div>
                 </li>
                 <li class="post-item">
@@ -56,13 +69,3 @@
 </body>
 
 </html>
-<script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-77378585-1', 'auto');
-    ga('require', 'displayfeatures');
-    ga('send', 'pageview');
-</script>
