@@ -11,7 +11,7 @@ projects = [
         title: 'contour map',
         video: '<iframe id="modal-video" src="https://player.vimeo.com/video/282962530?autoplay=1&loop=1&title=0&portrait=0" width height frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>',
         body: `A topographical contour map models a region's geography by demarcating regions by elevation. I was inspired by these maps: how they form organic shapes, yet still obey a set of rules. Here I interpret abstract form through imagined motion.
-        This project was brought to life with Processing and a custom OpenGL shader. It is modeled using randomly generated bivariate Gaussian functions that roam across an imaginary map. The geography has equal height along each contour line.`
+        This project was brought to life with Processing and a custom OpenGL shader. It is modeled using randomly generated bivariate Gaussian functions that roam across an imaginary map. The geography has equal height along each contour line. The closer the lines, the steeper the incline.`
     },
     {
         pics: ['growing.png'],
