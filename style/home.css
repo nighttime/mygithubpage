@@ -18,6 +18,16 @@
     src: url('fonts/FF_DIN_Medium.otf');
 }
 
+@font-face {
+    font-family: SF-Pro-Regular;
+    src: url('fonts/SF-Pro-Text-Regular.otf');
+}
+
+@font-face {
+    font-family: SF-Pro-Semibold;
+    src: url('fonts/SF-Pro-Text-Bold.otf');
+}
+
 body {
     -webkit-font-smoothing: subpixel-antialiased;
     /*text-rendering: geometricPrecision;*/
@@ -25,7 +35,7 @@ body {
     padding: 0px;
     width: 100%;
     background-color: #2E2E2E;
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
 }
 
 #wrapper {
@@ -42,7 +52,7 @@ body {
     z-index: -99;
 }
 #header {
-    margin-top: 10vh; /* was 30vh */
+    margin-top: 5vh;
     padding: 0 30px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -119,13 +129,13 @@ a {
     justify-content: center;
 }
 #me-pic {
-    width: 20vw;
-    height: 20vw;
+    width: 15vw;
+    height: 15vw;
     min-width: 200px;
     min-height: 200px;
     max-width: 300px;
     max-height: 300px;
-    background-image: url("images/me.png");
+    background-image: url("images/me.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -218,6 +228,16 @@ a {
     margin: auto;
     padding: 2em;
 }
+
+.section-body {
+    font-family: "SF-Pro-Regular";
+    font-size: 0.9em;
+}
+
+.section-body strong {
+    font-family: "SF-Pro-Bold";
+}
+
 .skinny-content {
     padding: 1em 2em 0 2em;
 }
