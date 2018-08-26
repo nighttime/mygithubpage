@@ -120,7 +120,7 @@ body {
 
 .medium-link:active {
     /* color: rgba(20,20,20, 0.6); */
-    background-color: rgba(100, 130, 200, 0.10);
+    background-color: rgba(100, 130, 200, 0.15);
 }
 
 .post-item {
