@@ -138,6 +138,7 @@ a {
     background-image: url("images/me.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 100%;
 }
 #project-card-holder {
     display: inline-block;
