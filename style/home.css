@@ -135,7 +135,8 @@ a {
     min-height: 200px;
     max-width: 300px;
     max-height: 300px;
-    background-image: url("images/me.jpg");
+    /* background-image: url("images/me.jpg"); */
+    background-image: url("images/Met_square.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 100%;
