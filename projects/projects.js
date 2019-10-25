@@ -3,7 +3,7 @@ projects = [
         pics: ['mesh.jpeg'],
         title: 'Deep Learning',
         body: `I have written several projects demonstrating concepts in modern machine learning. I am fascinated by neural-inspired architectures and language processing.
-        Check out my projects on <a href="https://github.com/nighttime/DL-Projects">Github</a>.`
+        Check out my projects on <a href="https://github.com/nighttime/DL-Projects" target="_blank">Github</a>.`
     },
 // <iframe src="https://player.vimeo.com/video/282962530" width="640" height="640" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
     {
@@ -20,14 +20,14 @@ projects = [
         body: `For this collaborative art project, I was inspired by vegetation and natural growth.
         I wanted to explore organic motion dictated entirely by computation. Every aspect of the scene is generated probabilistically, which means that each tree is unique.
         The leaves were painted and scanned by my partner. I conceived the concept and programmed the scene in Processing, carefully tuning and easing by hand to achieve motion that truly feels alive.
-        Check out the source code <a class="contact-link" href="https://github.com/nighttime/growing">here</a>.`
+        Check out the source code <a href="https://github.com/nighttime/growing" target="_blank">here</a>.`
     },
     {
         pics: ['tti.png'],
         title: 'Two to Infinity',
         body: `2048: Two to Infinity began with a simple mission: to redo 2048 with <em>style</em>.
         I built this iOS game from the ground up to be fresh, charming, and engaging. It includes achievements, unlockable themes, leaderboards, and limitless play. I hope you enjoy it!
-        To date, Two to Infinity has 11k downloads. You can <a class="contact-link" href="https://www.youtube.com/watch?v=DarccjOP6zE">watch</a> the trailer and <a class="contact-link" href="https://itunes.apple.com/us/app/beyond-2048-two-to-infinity!/id860372644?mt=8">play</a> it yourself.`
+        To date, Two to Infinity has 11k downloads. You can <a href="https://www.youtube.com/watch?v=DarccjOP6zE" target="_blank">watch</a> the trailer and <a href="https://itunes.apple.com/us/app/beyond-2048-two-to-infinity!/id860372644?mt=8" target="_blank">play</a> it yourself.`
     },
     {
         pics: ['lightning.png'],
@@ -35,7 +35,7 @@ projects = [
         body: `Lightning Notes is a note-taking web app. It understands the way you take notes, styling and structuring text as you type.
         You define styling rules, which can affect anything from a single keyword to complex patterns in your text. Lightning structures your document so it's ready to go, right away.
         I developed the product idea for Lightning, led interface design efforts, and engineered the text comprehension engine, which dynamically compiles user rules into regexes.
-        <a href="https://vimeo.com/138032443">Check it out in action!</a>`
+        <a href="https://vimeo.com/138032443" target="_blank">Check it out in action!</a>`
     },
     {
         pics: ['digital_bear.png', 'digital_wolf.png'],
