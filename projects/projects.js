@@ -1,10 +1,10 @@
 projects = [
-    {
-        pics: ['mesh.jpeg'],
-        title: 'Deep Learning',
-        body: `I have written several projects demonstrating concepts in modern machine learning. I am fascinated by neural-inspired architectures and language processing.
-        Check out my projects on <a href="https://github.com/nighttime/DL-Projects" target="_blank">Github</a>.`
-    },
+    // {
+    //     pics: ['mesh.jpeg'],
+    //     title: 'Deep Learning',
+    //     body: `I have written several projects demonstrating concepts in modern machine learning. I am fascinated by neural-inspired architectures and language processing.
+    //     Check out my projects on <a href="https://github.com/nighttime/DL-Projects" target="_blank">Github</a>.`
+    // },
 // <iframe src="https://player.vimeo.com/video/282962530" width="640" height="640" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
     {
         pics: ['contour.png'],
@@ -42,13 +42,13 @@ projects = [
         title: 'wild things',
         body: `I enjoy digital illustration in addition to interface design.
         This series is an ongoing project that I add to from time to time.`
-    },
-    {
-        pics: ['echo.png'],
-        title: 'echo',
-        body: `What makes a shareable idea?
-Echo is an experiment in meme propagation. It models the way an idea spreads through people using one-way messages.
-It starts when a user shares a thought. Another user around the world reads it, and if they share it, it's read by another user, and another, and another, until someone breaks the chain. Then no one will see the message again.
-Echo is an iOS project with a web companion. I conceived the idea, directed project-wide style, and engineered the mobile client.`
     }
+//     {
+//         pics: ['echo.png'],
+//         title: 'echo',
+//         body: `What makes a shareable idea?
+// Echo is an experiment in meme propagation. It models the way an idea spreads through people using one-way messages.
+// It starts when a user shares a thought. Another user around the world reads it, and if they share it, it's read by another user, and another, and another, until someone breaks the chain. Then no one will see the message again.
+// Echo is an iOS project with a web companion. I conceived the idea, directed project-wide style, and engineered the mobile client.`
+//     }
 ]
