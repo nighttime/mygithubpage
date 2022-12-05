@@ -45,10 +45,10 @@ $(document).ready(function () {
 
   $(".project-card").hover(function() {
     // Mouse over
-    $(this).siblings().stop().fadeTo(400, 0.5);
+    $(this).siblings().stop().fadeTo(250, 0.3);
   }, function() {
     // Mouse out
-    $(this).siblings().stop().fadeTo(400, 1);
+    $(this).siblings().stop().fadeTo(250, 1);
   });
 
   $(document).keydown(function(e) {
