@@ -194,12 +194,12 @@ a {
     /*-webkit-flex-wrap: nowrap;*/
     /*-webkit-flex-direction: row;*/
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
     .menu-link {
-        font-size: 0.8em;
+        font-size: 0.7em;
     }
 }
-@media only screen and (mix-width: 401px) {
+@media only screen and (mix-width: 501px) {
     .menu-link {
         font-size: 1em;
     }
