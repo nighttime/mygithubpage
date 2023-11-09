@@ -65,8 +65,8 @@ body {
 }
 .section {
     width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     position: relative;
     z-index: 1000;
 }
@@ -197,7 +197,7 @@ a {
 }
 @media only screen and (max-width: 500px) {
     .menu-link {
-        font-size: 0.7em;
+        font-size: 0.825em;
     }
 }
 @media only screen and (mix-width: 501px) {
@@ -241,7 +241,7 @@ a {
 .section-content {
     max-width: 31em;
     margin: auto;
-    padding: 2em;
+    padding: 1em;
 }
 
 .section-body {
@@ -280,6 +280,11 @@ a {
     line-height: 1.5em;
     letter-spacing: 0.025em;
 }
+.citation {
+  text-indent: -2em;
+  padding-left: 2em;
+  font-size: 1em;
+}
 .project {
     padding: 0;
 }
@@ -297,6 +302,26 @@ a {
     margin-right: 1em;
     float: left;
     display: inline-block;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 0 1em;
+}
+.news-table-date {
+    width: 20%;
+    color: #666666;
+    font-size: 0.9em;
+    vertical-align: top;
+    line-height: 1.5em;
+    letter-spacing: 0.025em;
+}
+.news-table-info {
+    width: 80%;
+    color: #222222;
+    font-size: 0.9em;
+    vertical-align: top;
+    line-height: 1.5em;
+    letter-spacing: 0.025em;
 }
 @media only screen and (max-width: 900px) {
     .lightning-title {
@@ -400,6 +425,9 @@ a:active {
 p {
     margin: 0;
     padding: 0;
+    margin-bottom: 1.25em;
+    line-height: 1.5em;
+    letter-spacing: 0.025em;
 }
 .lightning-video {
     max-width: 100%;

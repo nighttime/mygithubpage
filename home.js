@@ -21,14 +21,14 @@ $(document).ready(function () {
     }, duration, 'swing');
   });
 
-  var pattern = /[^\n\t]+/g
-  $('.section-body').each(function(index) {
-    var text = $(this).html();
-    text = text.replace(pattern, function(match) {
-      return '<div class="section-text">' + match + '</div>'
-    });
-    $(this).html(text);
-  });
+  // var pattern = /[^\n\t]+/g
+  // $('.section-body').each(function(index) {
+  //   var text = $(this).html();
+  //   text = text.replace(pattern, function(match) {
+  //       return '<div class="section-text">' + match + '</div>'
+  //   });
+  //   $(this).html(text);
+  // });
 
   var holder = $("#project-card-holder");
 
