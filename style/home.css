@@ -325,10 +325,10 @@ table {
 }
 @media only screen and (max-width: 900px) {
     .news-table-date {
-        width: 30%;
+        width: 28%;
     }
     .news-table-info {
-        width: 70%;
+        width: 72%;
     }
     .lightning-title {
         margin-bottom: 0.5em;
