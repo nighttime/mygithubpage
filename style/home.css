@@ -308,7 +308,7 @@ table {
     border-spacing: 0 1em;
 }
 .news-table-date {
-    width: 25%;
+    width: 20%;
     color: #666666;
     font-size: 0.9em;
     vertical-align: top;
@@ -316,7 +316,7 @@ table {
     letter-spacing: 0.025em;
 }
 .news-table-info {
-    width: 75%;
+    width: 80%;
     color: #222222;
     font-size: 0.9em;
     vertical-align: top;
@@ -324,6 +324,12 @@ table {
     letter-spacing: 0.025em;
 }
 @media only screen and (max-width: 900px) {
+    .news-table-date {
+        width: 30%;
+    }
+    .news-table-info {
+        width: 70%;
+    }
     .lightning-title {
         margin-bottom: 0.5em;
         display: block;
